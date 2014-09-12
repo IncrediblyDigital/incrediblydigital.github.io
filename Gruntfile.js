@@ -359,6 +359,19 @@ module.exports = function (grunt) {
       }
     },
 
+    buildcontrol: {
+      options: {
+        commit: true,
+        push: true
+      },
+      github: {
+        options: {
+          remote: 'git@github.com:IncrediblyDigital/incrediblydigital.github.io',
+          branch: 'master'
+        }
+      }
+    },
+
     // Run some tasks in parallel to speed up build process
     concurrent: {
       server: [
