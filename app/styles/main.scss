@@ -1,5 +1,13 @@
+// Custom Font Awesome variables
+$fa-font-path: "../bower_components/font-awesome/fonts";
+
+// Import Font Awesome Sass
+@import "font-awesome/scss/font-awesome.scss";
+
+// Custom Bootstrap variables
 $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
 
+// Social icon colors
 $btn-facebook-bg: #3b5998;
 $btn-twitter-bg: #00aced;
 $btn-youtube-bg: #bb0000;
